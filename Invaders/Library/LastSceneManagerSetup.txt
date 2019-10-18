@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/levelAdalberto.unity
+- path: Assets/Scenes/lvl0-Tutorial-Tristan.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
