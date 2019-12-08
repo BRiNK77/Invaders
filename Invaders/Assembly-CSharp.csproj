@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\Scripts\AlienController.cs" />
+    <Compile Include="Assets\Scripts\WaveSpawner.cs" />
     <Compile Include="Assets\WeaponPack I\Scripts\WeaponController.cs" />
     <Compile Include="Assets\WeaponPack I\Scripts\WeaponSwitcher.cs" />
     <None Include="Assets\Materials\Color Selection.shader" />
