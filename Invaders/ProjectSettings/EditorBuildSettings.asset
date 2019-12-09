@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVL1-TZ.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/LevelBrian.unity
+    guid: 5c19e47a07af8ab4faec29238b0c9044
+  - enabled: 1
+    path: Assets/Scenes/levelAdalberto.unity
+    guid: 9a19ce86f5d2abc41adf76567b241dab
   m_configObjects: {}
