@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/levelDavid.unity
+- path: Assets/Scenes/LVL1-TZ.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

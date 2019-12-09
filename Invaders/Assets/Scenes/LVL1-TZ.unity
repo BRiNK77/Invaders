@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 84635d4d2692e7b4489f8e392fe176a7, type: 2}
 --- !u!1001 &8764113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +130,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -285,7 +289,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &129139042
 Transform:
@@ -370,6 +374,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -456,7 +464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &179866299
 Transform:
@@ -548,7 +556,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &251184166
 Transform:
@@ -640,7 +648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &258111876
 Transform:
@@ -732,7 +740,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &316900573
 Transform:
@@ -818,6 +826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.78
@@ -897,6 +909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk2.1
       objectReference: {fileID: 0}
+    - target: {fileID: 1998113270320858, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.352422
@@ -952,6 +968,18 @@ PrefabInstance:
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalScale.z
       value: 4.2531433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613819917371042, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154808425822368, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851784583610938, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
@@ -1065,6 +1093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk2.4
       objectReference: {fileID: 0}
+    - target: {fileID: 1998113270320858, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.9624214
@@ -1120,6 +1152,18 @@ PrefabInstance:
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalScale.z
       value: 4.2531433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613819917371042, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154808425822368, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851784583610938, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
@@ -1233,6 +1277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.9
@@ -1318,7 +1366,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &689845153
 Transform:
@@ -1410,7 +1458,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &695733492
 Transform:
@@ -1593,7 +1641,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &773323921
 Transform:
@@ -1688,7 +1736,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1050404724
 Transform:
@@ -1780,7 +1828,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1152294999
 BoxCollider:
@@ -1865,6 +1913,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1951,7 +2003,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1309671697
 Transform:
@@ -2043,7 +2095,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1323194402
 Transform:
@@ -2228,7 +2280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1481062083
 Transform:
@@ -2406,6 +2458,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2608,7 +2664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1639126760
 Transform:
@@ -2660,7 +2716,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1761146951
 Transform:
@@ -2752,7 +2808,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1844862106
 Transform:
@@ -2841,6 +2897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.78
@@ -2920,6 +2980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk2.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1998113270320858, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.052421
@@ -2976,6 +3040,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.2531433
       objectReference: {fileID: 0}
+    - target: {fileID: 1613819917371042, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154808425822368, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851784583610938, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
 --- !u!4 &1867034731 stripped
@@ -2994,6 +3070,10 @@ PrefabInstance:
     - target: {fileID: 1998113270320858, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_Name
       value: Desk2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998113270320858, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4533010303320272, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3051,6 +3131,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.2531433
       objectReference: {fileID: 0}
+    - target: {fileID: 1613819917371042, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154808425822368, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851784583610938, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bceaa138fec68b48b7f9878f882b3b0, type: 3}
 --- !u!4 &1926234250 stripped
@@ -3069,6 +3161,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3148,6 +3244,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_Name
       value: Chair 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461fcd2f7caad1f44a3cce6e529749e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3234,7 +3334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2081116385
 BoxCollider:
@@ -3332,7 +3432,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2100472666
 Transform:
@@ -3418,6 +3518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desk1
       objectReference: {fileID: 0}
+    - target: {fileID: 1956321057139690, guid: d7557368a50b0384591566194592a656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4648816939057116, guid: d7557368a50b0384591566194592a656, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.57
@@ -3473,6 +3577,18 @@ PrefabInstance:
     - target: {fileID: 4648816939057116, guid: d7557368a50b0384591566194592a656, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.7647033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1392243826543980, guid: d7557368a50b0384591566194592a656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854823168386554, guid: d7557368a50b0384591566194592a656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111481917035632, guid: d7557368a50b0384591566194592a656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7557368a50b0384591566194592a656, type: 3}
