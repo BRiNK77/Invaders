@@ -10,6 +10,7 @@ public class PlayerStats : MonoBehaviour
 
     public GameObject bulletPrefab; // what bullet to use
     public Transform firePoint; // where the bullets come out
+    public static bool canShoot = true;
 
 
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && canShoot)
         {
            Shoot();
         }
