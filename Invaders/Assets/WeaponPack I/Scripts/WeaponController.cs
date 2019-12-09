@@ -8,10 +8,28 @@ public class WeaponController : MonoBehaviour {
 	
 	public float animSpeed = 1;
 	public float fireRate = 0.1f;
-	float nextFire = 0;
+    public Camera fpsCam;
+
+    public AudioSource audio;
+    public AudioClip gunShot;
+    public AudioClip emptyShot;
+
+    public GameObject blood;
+
+    public float damage;
+
+    float nextFire = 0;
+
+    public int maxAmmo;
+    public int maxClip;
+    private int currentClip;
+    private int currentAmmo;
 	
 	// Use this for initialization
 	void Awake () {
+        currentAmmo = maxAmmo;
+        currentClip = maxClip;
+
 		if(type == Type.Sniper){
 			GetComponent<Animation>()["Reload_1_3"].wrapMode = WrapMode.Once;
 			GetComponent<Animation>()["Reload_2_3"].wrapMode = WrapMode.Once;
@@ -38,27 +56,83 @@ public class WeaponController : MonoBehaviour {
 			}
 		}
 		
-		if(type != Type.Automatic){
+		if(type != Type.Automatic && currentClip > 0){
 			if(Input.GetMouseButtonDown(0)&&Time.time > nextFire){
 				nextFire = Time.time + fireRate;
 				GetComponent<Animation>().Rewind("Fire");
 				AnimationState fire = GetComponent<Animation>().CrossFadeQueued("Fire");
 				fire.speed = animSpeed;
+                Shoot();
 			}
 		}else{
-			if(Input.GetMouseButton(0)&&Time.time > nextFire){
+			if(Input.GetMouseButton(0)&&Time.time > nextFire && currentClip > 0){
 				nextFire = Time.time + fireRate;
 				GetComponent<Animation>().Rewind("Fire");
 				GetComponent<Animation>().CrossFade("Fire");
 				GetComponent<Animation>()["Fire"].speed = animSpeed;
+                Shoot();
 			}
 		}
 	}
-	
-	void RifleReload(){
-		AnimationState newReload = GetComponent<Animation>().CrossFadeQueued("Reload");
-		newReload.speed = animSpeed;
-	}
+
+    void Shoot()
+    {
+        currentClip--;
+        audio.PlayOneShot(gunShot);
+        RaycastHit hit;
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, 100))
+        {
+            AlienController alien = hit.transform.GetComponent<AlienController>();
+            if (alien != null)
+            {
+                print("alien hit");
+                alien.TakeDamage(damage);
+                GameObject tempBlood;
+                tempBlood = Instantiate(blood, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(tempBlood, 0.5f);
+            }
+            else
+            {
+                //GameObject tempEffect;
+                //tempEffect = Instantiate(bulletHit, hit.point, Quaternion.LookRotation(hit.normal));
+                //Destroy(tempEffect, 0.5f);
+            }
+        }
+    }
+
+    void RifleReload(){
+
+        if (currentClip == 0)
+        {
+            if (currentAmmo >= maxClip)
+            {
+                currentClip = maxClip;
+                currentAmmo -= maxClip;
+            }
+            else
+            {
+                currentClip = currentAmmo;
+                currentAmmo = 0;
+            }
+        }
+        else
+        {
+            int ammoNeeded = maxClip - currentClip;
+            if (currentAmmo >= ammoNeeded)
+            {
+                currentClip = maxClip;
+                currentAmmo -= ammoNeeded;
+            }
+            else
+            {
+                currentClip += currentAmmo;
+                currentAmmo = 0;
+            }
+        }
+
+        AnimationState newReload = GetComponent<Animation>().CrossFadeQueued("Reload");
+        newReload.speed = animSpeed;
+    }
 	
 	void SniperReload(){
 		AnimationState newReload1 = GetComponent<Animation>().CrossFadeQueued("Reload_1_3");
