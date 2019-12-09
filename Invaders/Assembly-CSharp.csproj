@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\adaLevelNextScene.cs" />
     <Compile Include="Assets\Scripts\AlienController.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\DavidsNextScene.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />

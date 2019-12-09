@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class adaLevelNextScene : MonoBehaviour
+public class DavidsNextScene : MonoBehaviour
 {
+    // Start is called before the first frame update
     // Start is called before the first frame update
     public GameObject nextSceneText;
 
@@ -22,6 +23,6 @@ public class adaLevelNextScene : MonoBehaviour
     public void Next()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("levelDavid");
+        SceneManager.LoadScene("levelAldo");
     }
 }
