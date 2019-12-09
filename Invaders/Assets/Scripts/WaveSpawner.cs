@@ -30,7 +30,7 @@ public class WaveSpawner : MonoBehaviour
         if (!levelDone)
         {
             //Check if waves are done and if any aliens are left
-            if (currentWave == totalWaves && CheckForAliens())
+            if (currentWave == totalWaves && aliensLeft == 0 && CheckForAliens())
             {
                 exitDoor.transform.Rotate(0, 0, -90, Space.Self);
                 levelDone = true;
@@ -55,7 +55,6 @@ public class WaveSpawner : MonoBehaviour
             {
                 print("Wave Done!");
                 waveDone = true;
-                currentWave++;
             }
             else if (aliensLeft == aliensPerWave)
             {
